@@ -17,7 +17,7 @@ function App() {
   // Renderiza la lista de bicicletas y muestra cada una con su nombre y precio
   return (
     <div className="App">
-      <h1>Bike Store</h1>
+      <h1>Bike Store123</h1>
       <ul>
         {bikes.map((bike) => (
           <li key={bike.id}>

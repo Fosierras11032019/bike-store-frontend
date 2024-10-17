@@ -17,6 +17,12 @@ function App() {
   // Renderiza la lista de bicicletas y muestra cada una con su nombre y precio
   return (
     <div className="App">
+      
+      <section class = "App-header">
+        <h1>Mi Tienda on line</h1>
+        <p>Mira el catálogo</p>
+      </section>
+
       <h1>Bike Store123</h1>
       <ul>
         {bikes.map((bike) => (
